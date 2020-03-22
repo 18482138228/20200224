@@ -7,4 +7,11 @@ public class Item {
     public void effect(){
         System.out.println("物品使用后有效果");
     }
+
+    public static void main(String[] args) {
+        Item i1 = new LifePotion();
+        Item i2 = new MagicPotion();
+        i1.effect();
+        i2.effect();
+    }
 }
