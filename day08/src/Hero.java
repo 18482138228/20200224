@@ -1,4 +1,4 @@
-public class Hero {
+public class Hero extends Object{
     public String name;
     protected float hp;
     int armor;
