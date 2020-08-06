@@ -39,7 +39,4 @@ public class Hero2 {
             e.printStackTrace();
         }
     }
-
-
-
 }
